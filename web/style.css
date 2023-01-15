@@ -1,0 +1,59 @@
+header {
+  background-image: url(images/-min.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:0 -315px;
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  font-family: "Playfair Display";
+  color: aliceblue;
+  font-size: 96px;
+  margin-top: 0;
+  margin-left: 7%;
+  text-transform: uppercase;
+
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+body {
+  margin: 0;
+}
+header h1 span {
+  opacity: 20%;
+  font-weight:300;
+}
+ nav a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #b77336;
+  transition: all 2s;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+nav {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ padding: 30px;
+ flex-wrap: wrap;
+}
+nav a:hover {
+  text-decoration: underline;
+  
+}
+nav a img {
+  opacity: 0;
+}
+nav a:hover img {
+  opacity: 1;
+  transition: all 1s;
+}
+nav a img {
+  filter:contrast(100%) ;
+}
